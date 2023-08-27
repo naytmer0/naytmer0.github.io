@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Montserrat", sans-serif;
     background: #e5e5e5;
@@ -41,7 +45,10 @@ aside {
 }
 .cs-photo {
     margin: 40px 0 0 0;
-    height: 430px;
+    height: auto;
+    border-radius: 4rem;
+    border: solid;
+    border-color: rgb(0, 0, 0);
 }
 .secondary {
     color: black;
@@ -66,6 +73,7 @@ aside {
 }
 .list-sec-item {
     color: black;
+    font-weight: bold;
 }
 .contact-block {
     margin-top: 51px;

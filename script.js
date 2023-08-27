@@ -26,6 +26,8 @@ document.querySelector(".polish-button").addEventListener("click", function () {
     document.querySelector(".polish-lang").textContent = "Polski:";
     document.querySelector(".pl-lvl").textContent = "C2 (ojczysty)";
     document.querySelector(".cv").textContent = "CV w wersji internetowej:";
+    document.querySelector(".location").textContent =
+        "Puławy, Lubelskie, Polska";
 });
 document
     .querySelector(".english-button")
@@ -55,4 +57,6 @@ document
         document.querySelector(".polish-lang").textContent = "Polish:";
         document.querySelector(".pl-lvl").textContent = "C2 (native)";
         document.querySelector(".cv").textContent = "CV in web version:";
+        document.querySelector(".location").textContent =
+            "Puławy, Lubelskie, Poland";
     });
