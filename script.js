@@ -30,6 +30,8 @@ document.querySelector(".polish-button").addEventListener("click", function () {
         "Puławy, Lubelskie, Polska";
     document.querySelector(".polish-button").classList.add("clicked");
     document.querySelector(".english-button").classList.remove("clicked");
+    document.querySelector(".jquery").textContent =
+        "jQuery (podstawy)";
 });
 document
     .querySelector(".english-button")
@@ -63,4 +65,6 @@ document
             "Puławy, Lubelskie, Poland";
         document.querySelector(".polish-button").classList.remove("clicked");
         document.querySelector(".english-button").classList.add("clicked");
+        document.querySelector(".jquery").textContent =
+        "jQuery (basics)";
     });
