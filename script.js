@@ -2,10 +2,9 @@ document.querySelector(".polish-button").addEventListener("click", function () {
     document.querySelector(".lang").textContent = "Język:";
     document.querySelector(".polish-button").textContent = "Polski";
     document.querySelector(".english-button").textContent = "Angielski";
-    document.querySelector(".job-title").textContent =
-        "Początkujący Front-End Developer";
+    document.querySelector(".job-title").textContent = "Front-End Developer";
     document.querySelector(".desc").textContent = `
-    Jestem początkującym programistą front-end specjalizującym się w HTML, CSS oraz JavaScript. Chętnie zdobywam nową wiedzę i doświadczenie.`;
+    Jestem programistą front-end specjalizującym się w HTML, CSS oraz JavaScript. Aktualnie uczę się vue.js. Chętnie zdobywam nową wiedzę i doświadczenie.`;
     document.querySelector(".projects-header").textContent = "Projekty:";
     document.querySelector(".education-header").textContent = "Edukacja:";
     document.querySelector(".job-date").textContent =
