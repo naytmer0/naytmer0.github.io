@@ -37,7 +37,7 @@ document
         document.querySelector(".polish-button").textContent = "Polish";
         document.querySelector(".english-button").textContent = "English";
         document.querySelector(".job-title").textContent =
-            "Beginner Front-End Developer";
+            "Front-End Developer";
         document.querySelector(".desc").textContent = `
         I am a front-end programmer specializing in HTML, CSS, and JavaScript. I'm currently learning vue.js. I am eager to gain new knowledge and experience.`;
         document.querySelector(".projects-header").textContent = "Projects:";
