@@ -39,7 +39,7 @@ document
         document.querySelector(".job-title").textContent =
             "Beginner Front-End Developer";
         document.querySelector(".desc").textContent = `
-        I am a beginner front-end programmer specializing in HTML, CSS, and JavaScript. I am eager to gain new knowledge and experience.`;
+        I am a front-end programmer specializing in HTML, CSS, and JavaScript. I'm currently learning vue.js. I am eager to gain new knowledge and experience.`;
         document.querySelector(".projects-header").textContent = "Projects:";
         document.querySelector(".education-header").textContent = "Education:";
         document.querySelector(".job-date").textContent =
